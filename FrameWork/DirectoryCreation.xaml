@@ -128,7 +128,7 @@
                   <OutArgument x:TypeArguments="x:String">[PathFileLog]</OutArgument>
                 </ui:AssignOperation.To>
                 <ui:AssignOperation.Value>
-                  <InArgument x:TypeArguments="x:String">Logs\log</InArgument>
+                  <InArgument x:TypeArguments="x:String">[data_config("PathFileLog").ToString.Trim]</InArgument>
                 </ui:AssignOperation.Value>
               </ui:AssignOperation>
               <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_2">
@@ -273,7 +273,7 @@
                                   <OutArgument x:TypeArguments="x:String">[PathFileLog]</OutArgument>
                                 </ui:AssignOperation.To>
                                 <ui:AssignOperation.Value>
-                                  <InArgument x:TypeArguments="x:String">Logs\log</InArgument>
+                                  <InArgument x:TypeArguments="x:String">[data_config("PathFileLog").ToString.Trim]</InArgument>
                                 </ui:AssignOperation.Value>
                               </ui:AssignOperation>
                               <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_12">
@@ -381,7 +381,7 @@
                                               <OutArgument x:TypeArguments="x:String">[PathFileLog]</OutArgument>
                                             </ui:AssignOperation.To>
                                             <ui:AssignOperation.Value>
-                                              <InArgument x:TypeArguments="x:String">Logs\log</InArgument>
+                                              <InArgument x:TypeArguments="x:String">[data_config("PathFileLog").ToString.Trim]</InArgument>
                                             </ui:AssignOperation.Value>
                                           </ui:AssignOperation>
                                           <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_20">
@@ -458,7 +458,7 @@
                                                   <OutArgument x:TypeArguments="x:String">[PathFileLog]</OutArgument>
                                                 </ui:AssignOperation.To>
                                                 <ui:AssignOperation.Value>
-                                                  <InArgument x:TypeArguments="x:String">Logs\log</InArgument>
+                                                  <InArgument x:TypeArguments="x:String">[data_config("PathFileLog").ToString.Trim]</InArgument>
                                                 </ui:AssignOperation.Value>
                                               </ui:AssignOperation>
                                               <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_24">
@@ -541,7 +541,7 @@
                                           <OutArgument x:TypeArguments="x:String">[PathFileLog]</OutArgument>
                                         </ui:AssignOperation.To>
                                         <ui:AssignOperation.Value>
-                                          <InArgument x:TypeArguments="x:String">Logs\log</InArgument>
+                                          <InArgument x:TypeArguments="x:String">[data_config("PathFileLog").ToString.Trim]</InArgument>
                                         </ui:AssignOperation.Value>
                                       </ui:AssignOperation>
                                       <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_16">
@@ -629,7 +629,7 @@
                               <OutArgument x:TypeArguments="x:String">[PathFileLog]</OutArgument>
                             </ui:AssignOperation.To>
                             <ui:AssignOperation.Value>
-                              <InArgument x:TypeArguments="x:String">Logs\log</InArgument>
+                              <InArgument x:TypeArguments="x:String">[data_config("PathFileLog").ToString.Trim]</InArgument>
                             </ui:AssignOperation.Value>
                           </ui:AssignOperation>
                           <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_8">
