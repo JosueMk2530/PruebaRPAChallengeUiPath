@@ -263,10 +263,7 @@
                     </sap:WorkflowViewStateService.ViewState>
                   </Assign>
                   <FlowStep.Next>
-                    <FlowDecision x:Name="__ReferenceID3" DisplayName="Does the config file exist?" sap:VirtualizedContainerService.HintSize="60,60" sap2010:WorkflowViewState.IdRef="FlowDecision_1">
-                      <FlowDecision.Condition>
-                        <VisualBasicValue x:TypeArguments="x:Boolean" DisplayName="Visual basic value" ExpressionText="File.Exists(PathFileWorkbookConfig.Trim)" />
-                      </FlowDecision.Condition>
+                    <FlowDecision x:Name="__ReferenceID3" Condition="[File.Exists(PathFileWorkbookConfig.Trim)]" DisplayName="Does the config file exist?" sap:VirtualizedContainerService.HintSize="60,60" sap2010:WorkflowViewState.IdRef="FlowDecision_1">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -445,10 +442,7 @@
                             </sap:WorkflowViewStateService.ViewState>
                           </ui:ForEach>
                           <FlowStep.Next>
-                            <FlowDecision x:Name="__ReferenceID6" DisplayName="Parameter Loaded?" sap:VirtualizedContainerService.HintSize="60,60" sap2010:WorkflowViewState.IdRef="FlowDecision_2">
-                              <FlowDecision.Condition>
-                                <VisualBasicValue x:TypeArguments="x:Boolean" DisplayName="Visual basic value" ExpressionText="Data_Config.Count &gt; 1" />
-                              </FlowDecision.Condition>
+                            <FlowDecision x:Name="__ReferenceID6" Condition="[Data_Config.Count &gt; 1]" DisplayName="Parameter Loaded?" sap:VirtualizedContainerService.HintSize="60,60" sap2010:WorkflowViewState.IdRef="FlowDecision_2">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -489,7 +483,7 @@
                                               <OutArgument x:TypeArguments="x:String">[PathFileLog]</OutArgument>
                                             </ui:AssignOperation.To>
                                             <ui:AssignOperation.Value>
-                                              <InArgument x:TypeArguments="x:String">Logs\log</InArgument>
+                                              <InArgument x:TypeArguments="x:String">[Data_Config("PathFileLog").ToString.Trim]</InArgument>
                                             </ui:AssignOperation.Value>
                                           </ui:AssignOperation>
                                           <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_22">

@@ -1,0 +1,70 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": null,
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Data_Config&Flowchart_1",
+        "isParametersLoaded&Flowchart_1",
+        "loadingParameterIncidentMessage&Flowchart_1",
+        "PathFileLog&Sequence_2",
+        "TypeLog&Sequence_2",
+        "ActivityName&Sequence_2",
+        "MessageLog&Sequence_2",
+        "WorkBookSheets&Sequence_10"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "FrameWork/Log.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "TypeLogMessage&Flowchart_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "MessageLog",
+        "TypeLog",
+        "PathFileLog",
+        "ActivityName"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "FrameWork/LoadParameters.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "PathFileLog&Sequence_12",
+        "TypeLog&Sequence_12",
+        "ActivityName&Sequence_12",
+        "MessageLog&Sequence_12",
+        "PathFileLog&Sequence_7",
+        "TypeLog&Sequence_7",
+        "ActivityName&Sequence_7",
+        "MessageLog&Sequence_7",
+        "dt_ReadWorkbookConfig&Sequence_6",
+        "PathFileLog&Sequence_4",
+        "TypeLog&Sequence_4",
+        "ActivityName&Sequence_4",
+        "MessageLog&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "Data_Config",
+        "WorkbookSheetsConfig",
+        "PathFileWorkbookConfig"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

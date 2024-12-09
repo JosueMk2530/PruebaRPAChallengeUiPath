@@ -4,8 +4,8 @@
   "description": "Prueba para practicar el curso de git y github para los RPA, para este ejemplo vamos ir realizando la prueba de RPA Challenge pero con puros flowcharts y ahora si manejo de exceptiones.",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.24.3]",
-    "UiPath.Mail.Activities": "[1.24.2]",
+    "UiPath.Excel.Activities": "[2.24.4]",
+    "UiPath.Mail.Activities": "[1.24.10-preview]",
     "UiPath.System.Activities": "[24.11.0-preview]",
     "UiPath.Testing.Activities": "[24.10.3]",
     "UiPath.UIAutomation.Activities": "[24.12.1-preview]"
